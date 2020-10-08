@@ -1,0 +1,91 @@
+html, body, #contenedor {
+	margin: 0px;
+	height: 100%;
+}
+
+
+
+#encabezado {
+	background-image: url('../img/background.svg');
+	display: flex;
+	color: white;
+}
+
+#encabezado h1 {
+	line-height: 80px;
+	font-size: 34px;
+}
+
+#navegacion {
+	background-color: darkslategrey;
+}
+
+#navegacion ul {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navegacion ul li {
+	list-style: none;
+	border-right: 1px solid olive;
+	display: block;
+	text-align: center;
+}
+
+#navegacion ul li a {
+	text-decoration: none;
+	color: #f0f0f0;
+	font-weight: bold;
+	padding: 15px 18px;
+	display: table;
+	text-align: center;
+}
+
+#navegacion ul li a:hover {
+	color: #8fbc8f;
+	background-color: #f0f0f0;
+}
+
+.active {
+	color: #f0f0f0;
+	background-color: #8fbc8f;
+}
+
+
+#piedepagina {
+	text-align: center;
+	color: #f0f0f0;
+	background-color: #8fbc8f;
+	padding: 20px;
+	margin-top: 24px;
+}
+
+#piedepagina a {
+	text-decoration: none;
+	color: #f0f0f0;
+}
+#piedepagina i {
+	margin-top: 16px;
+	margin-left: 12px;
+	font-size: 24px;
+}
+
+@media (max-width: 780px) {
+	#navegacion ul {
+		display: block;
+	}
+
+	#navegacion ul li a {
+		width: 100%;
+		text-align: center;
+	}
+
+
+}
+
+#cuerpo {
+	margin-top: -5px;
+	margin-left: 50px;
+	font-size: 18px;
+}
