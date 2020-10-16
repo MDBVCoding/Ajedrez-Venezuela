@@ -37,7 +37,7 @@ body {
 	color: #f0f0f0;
 	font-weight: bold;
 	padding: 15px 18px;
-	display: table;
+	display: flex;
 	text-align: center;
 }
 
@@ -76,7 +76,8 @@ body {
 	}
 
 	#navegacion ul li a {
-		width: 100%;
+		display: block;
+		max-width: 100%;
 		text-align: center;
 	}
 
