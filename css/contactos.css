@@ -85,9 +85,9 @@ body {
 
 
 #contacto{
-	width: 50%;
- 	margin-left: 30%;	
- 	display: table;
+	width: 100%;
+ 	text-align: center;	
+ 	display: block;
 }
 
 .caja-texto{
